@@ -1,0 +1,305 @@
+
+/* ===== abaixo página inicio abaixo ===== */
+
+/* abaixo cabeçalho abaixo */
+#header {
+    box-sizing: border-box;
+    background: #DFE337;
+    padding: 10px 15px;
+    display: table;
+    width: 100%;
+    height: 70px;
+}
+  
+.logo {
+      text-align: center;
+      width: 50px;
+      font-family: 'Lato';
+      font-size: 40px;
+      color: #7B4C9D;
+      font-weight: bold;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #7B4C9D;
+    margin-left: 50px;
+}
+
+.logo a:hover {
+    text-shadow: 0 2px 2px #d2b4e0, 
+      -2px 5px 1px #b598bb, 
+      -4px 8px 0px #907897, 
+      -6px 11px 0px #705f72,
+      -8px 14px 0px #554857,
+      -10px 17px 0px #373038;
+    transition: 1s;
+}
+
+  
+li a {
+    text-decoration: none;
+    color: #47525E;
+}
+  
+.logo,
+.menu {
+    vertical-align: middle;
+    display: table-cell;
+}
+  
+.menu ul {
+    text-align: left;
+    margin-left: 100px;
+    font-size: 20px;
+}
+  
+.menu ul li {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: top;
+    font-family: 'Lato';
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color:#7B4C9D;
+    font-size: 21px;
+}
+/* acima cabeçalho acima */
+
+main {
+    margin-bottom: 50px;
+}
+
+/* abaixo apresentaçao abaixo */
+
+.banner {
+    position: relative;
+
+}
+.banner img {
+    width: 100%; 
+}
+
+.texto-banner {
+    color: #fff;
+    background: none;
+    text-align: left;
+    position: relative;
+    top: -110px;
+    padding: 15px;
+    font-size: 22px;
+    font-weight: normal;
+    font-family: 'Lato';
+}
+
+.texto-banner h1 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Lato';
+    text-shadow: 3px 3px 3px #000;
+}
+
+.texto-banner p {
+    text-shadow: 3px 2px 3px #000;
+
+}
+
+/* acima apresentaçao acima */
+
+/* ===== acima página inicio acima ===== */
+
+
+
+/* ========================================================================= */
+
+
+
+/* ===== abaixo página explorar abaixo ===== */
+
+
+/* abaixo explorar-titulo abaixo */
+
+.explorar h1 {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 40px;
+    color: #47525E;
+    font-family: 'Lato';
+}
+
+/* acima explorar-titulo acima */
+
+/* abaixo lancamentos abaixo */
+
+.lancamentos h2 {
+    text-align: left;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 30px;
+    color: #47525E;
+    font-family: 'Lato';
+}
+
+/* acima lancamentos acima */
+
+/* abaixo lista lancamentos abaixo */
+
+.lancamentos li {
+    display: inline-block;
+    margin-right: 2%;
+    margin-top: 1.3%;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+.lancamentos img {
+    height: 250px ;
+    width: 250px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.lancamentos h3 {
+    margin-top: 3.1%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.lancamentos h4 {
+    display: inline-block;
+    margin: 0.6%;
+    margin-top: 3.1%;
+    font-size: 13px;
+    font-weight: medium;
+    color: #656A71;
+}
+
+.lancamentos a {
+    color: #000;
+}
+
+.lancamentos a:hover {
+    text-decoration: underline;
+}
+
+.lancamentos h4 a {
+    color: #656A71;
+}
+
+.lancamentos h3 a:hover {
+    color:#7B4C9D;
+}
+
+.lancamentos h4 a:hover {
+    color:#7B4C9D;
+}
+
+/* acima lista lancamentos acima */
+
+/* rodapé */
+
+footer {
+    box-sizing: border-box;
+    background: #7B4C9D;
+    padding: 45px 40px;
+    display: table;
+    width: 100%;
+    height: 220px;
+}
+
+.texto-footer {
+    text-align: center;
+    width: 100px;
+    font-family: 'Lato';
+    font-size: 30px;
+    color: #DFE337;
+    font-weight: bold;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+@media screen and (max-width: 480px) {
+    #header {
+        height: 35px;
+        padding: 5px 0px;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo a {
+        margin-left: 20px;
+    }
+
+    .menu ul {
+        font-size: 10px;
+        margin-left: 80px;
+    }
+
+    main {
+        margin-bottom: -77px;
+    }
+
+    .texto-banner {
+        font-size: 11px;
+    }
+
+    .texto-banner h1 {
+        font-size: 13px;
+        text-shadow: 2px 2px 2px #000;
+    }
+
+    .texto-banner p {
+        text-shadow: 2px 1px 2px #000;
+    
+    }
+
+    .explorar h1 {
+        margin-top: 1.5%;
+        font-size: 25px;
+
+    }
+
+    .lancamentos img {
+        height: 180px ;
+        width: 180px;
+    }
+    
+    ul {
+        text-align: left;
+        margin-left: 2%;
+    }
+    
+    .lancamentos h3 {
+        margin-top: 3.1%;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .lancamentos h4 {
+        display: inline-block;
+        margin: 0.6%;
+        margin-top: 3.1%;
+        font-size: 7px;
+        font-weight: medium;
+        color: #656A71;
+    }
+
+
+    footer {
+        height: 110px;
+        padding: 25px 20px;
+    }
+
+    .texto-footer {
+        font-size: 15px;
+    }
+}
